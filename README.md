@@ -394,6 +394,6 @@ streamlit run app.py --server.port 8502
 
 ---
 
-**작성일**: 2025-01-14
+**작성일**: 2025-11-14
 **버전**: 1.0.0
 **작성자**: [@kimsol1134](https://github.com/kimsol1134)
