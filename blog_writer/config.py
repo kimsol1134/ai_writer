@@ -12,7 +12,7 @@ class Settings(BaseSettings):
     langsmith_tracing: Optional[bool] = False
 
     # 모델 설정
-    model_name: str = "gemini-2.0-flash-exp"
+    model_name: str = "gemini-2.5-pro"
     temperature: float = 0.7
     max_retries: int = 2
 

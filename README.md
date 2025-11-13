@@ -1,18 +1,18 @@
 # 🤖 AI 블로그 작가
 
-> LangGraph v1.0 + Gemini 2.0 Flash 기반 Multi-Agent 블로그 자동 작성 시스템
+> LangGraph v1.0 + Gemini 2.5 Pro 기반 Multi-Agent 블로그 자동 작성 시스템
 
 AI가 자동으로 조사하고, 작성하고, 퇴고하는 전문적인 블로그 글 생성 시스템입니다. Human-in-the-Loop 방식으로 각 단계마다 사용자의 확인과 피드백을 받아 원하는 품질의 콘텐츠를 생성합니다.
 
 [![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://www.python.org/downloads/)
 [![LangGraph](https://img.shields.io/badge/LangGraph-1.0+-green.svg)](https://github.com/langchain-ai/langgraph)
-[![Gemini](https://img.shields.io/badge/Gemini-2.0_Flash-orange.svg)](https://ai.google.dev/)
+[![Gemini](https://img.shields.io/badge/Gemini-2.5_Pro-orange.svg)](https://ai.google.dev/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 ## ✨ 주요 기능
 
 - 🔍 **자동 조사**: Tavily Search API로 최신 정보 심층 조사
-- ✍️ **AI 글쓰기**: Gemini 2.0 Flash로 전문적인 블로그 글 작성
+- ✍️ **AI 글쓰기**: Gemini 2.5 Pro로 전문적인 블로그 글 작성
 - 🎨 **SEO 최적화**: 자동 퇴고 및 SEO 점수 분석 (가독성, 키워드 밀도, 구조)
 - 💬 **질문 시스템**: AI가 부족한 정보를 자동으로 질문하고 사용자 답변 반영
 - 👤 **Human-in-the-Loop**: 각 단계마다 사용자 승인 및 피드백 기능
@@ -224,7 +224,7 @@ writing_style: str = """
 ### 기술 스택
 
 - **LangGraph 1.0**: 워크플로우 오케스트레이션
-- **Google Gemini 2.0 Flash**: LLM 엔진
+- **Google Gemini 2.5 Pro**: LLM 엔진
 - **Tavily Search API**: 웹 검색 및 조사
 - **Streamlit**: 웹 UI 프레임워크
 - **SQLite**: 체크포인트 저장소
@@ -384,7 +384,7 @@ streamlit run app.py --server.port 8502
 이 프로젝트는 다음 오픈소스 프로젝트들을 사용합니다:
 
 - [LangGraph](https://github.com/langchain-ai/langgraph) by LangChain - Multi-Agent 워크플로우
-- [Google Gemini 2.0 Flash](https://ai.google.dev/) - LLM 엔진
+- [Google Gemini 2.5 Pro](https://ai.google.dev/) - LLM 엔진
 - [Tavily Search API](https://tavily.com/) - 웹 검색
 - [Streamlit](https://streamlit.io/) - 웹 UI 프레임워크
 
